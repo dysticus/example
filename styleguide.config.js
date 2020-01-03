@@ -1,6 +1,7 @@
 module.exports = {
   title: 'React Style Guide Example',
   defaultExample: true,
+  propsParser: require('react-docgen-typescript').parse,
   webpackConfig: {
     module: {
       rules: [

@@ -26,7 +26,7 @@
     "prop-types": "^15.6.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-styleguidist": "11.0.0-beta2",
+    "react-styleguidist": "10.4.0",
     "style-loader": "^0.23.1",
     "webpack": "^4.30.0"
   },
@@ -34,5 +34,9 @@
     "start": "styleguidist server",
     "styleguide": "styleguidist server",
     "styleguide:build": "styleguidist build"
+  },
+  "devDependencies": {
+    "react-docgen-typescript": "^1.16.2",
+    "typescript": "^3.7.4"
   }
 }
